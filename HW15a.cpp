@@ -1,7 +1,7 @@
 // HW15a.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //Lei Zhang
 //CIS 1202 803
-//
+//May 03 2025
 
 #include <iostream>
 #include <stdexcept>
@@ -24,7 +24,7 @@ public:
     }
 };
 
-// Function prototype
+// Function prototype  
 char character(char start, int offset);
 
 
