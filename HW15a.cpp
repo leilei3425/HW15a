@@ -32,10 +32,10 @@ int main(){
 
     try {
         cout << character('a', 1) << endl;
-        //cout << character('b', -1) << endl;
-        //cout << character('Z', -1) << endl;
-        //cout << character('?', 5) << endl;
-        //cout << character('A', 32) << endl;
+        cout << character('b', -1) << endl;
+        cout << character('Z', -1) << endl;
+        cout << character('?', 5) << endl;
+        cout << character('A', 32) << endl;
     }
     catch (const invalidCharacterException& e) {
         cout << "  Exception: " << e.what() << "\n";
